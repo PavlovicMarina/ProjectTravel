@@ -37,7 +37,6 @@ public class TravelsCarsPage extends BasicPage {
 
 	public boolean Cars10() {
 		boolean cars1 = false;
-		WebElement cars = driver.findElement(this.cars);
 		if (listCars.size() == 10) {
 			cars1 = true;
 		}
